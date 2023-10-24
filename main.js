@@ -6,10 +6,9 @@ const path = require('node:path');
 
 async function run () {
 	const { DuckDB, dataServer } = await import('@uwdata/mosaic-duckdb');
-	const port = 3000;
 
 	const db = new DuckDB(':memory:');
-	dataServer(db, { port, rest: true, socket: true });
+	dataServer(db, { rest: true, socket: true });
 }
 
 run();
