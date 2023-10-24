@@ -19,7 +19,7 @@ const html = vg.plot(chart);
 
 ## Loading the server seprately
 
-If you start the duckdb server separately, it works.
+If you start the duckdb server separately, it works. It also works in Electron if you run the DuckDB server in a child process.
 
 Steps to reproduce:
 
