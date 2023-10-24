@@ -1,0 +1,21 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "server": "node node_modules/@uwdata/mosaic-duckdb/bin/run-server.js",
+    "host": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.2"
+  },
+  "dependencies": {
+    "@uwdata/mosaic-duckdb": "^0.3.4",
+    "@uwdata/vgplot": "^0.3.4",
+    "http-server": "^14.1.1"
+  }
+}
